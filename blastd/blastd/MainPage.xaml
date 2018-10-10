@@ -1,14 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<views:MyContentPage x:TypeArguments="viewModels:MainWindowViewModel" xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:blastd"
+             xmlns:viewModels="clr-namespace:blastd.ViewModels;assembly=blastd"
+             xmlns:views="clr-namespace:blastd.Views;assembly=blastd"
              x:Class="blastd.MainPage">
-
+    <ContentPage.BindingContext>
+        <viewModels:MainWindowViewModel/>
+    </ContentPage.BindingContext>
     <StackLayout>
         <!-- Place new controls here -->
         <Label Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
+        <ListView ItemsSource="{Binding ListData}"></ListView>
     </StackLayout>
 
-</ContentPage>
+</views:MyContentPage>

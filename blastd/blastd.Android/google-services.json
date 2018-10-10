@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "127065866324",
+    "firebase_url": "https://blastd-6d14f.firebaseio.com",
+    "project_id": "blastd-6d14f",
+    "storage_bucket": "blastd-6d14f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127065866324:android:cf07269f1a298cf3",
+        "android_client_info": {
+          "package_name": "com.company.blastd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127065866324-64g4dd62l8d6f93csrd5dq6d4d78403o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi_rHX7MEyzGbvQ7N2DYO9OMJjCM5kOl0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
