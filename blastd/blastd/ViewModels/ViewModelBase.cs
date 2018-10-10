@@ -14,7 +14,7 @@ namespace blastd.ViewModels
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
-        public virtual void Initialize()
+        public virtual async void Initialize()
         {
 
         }

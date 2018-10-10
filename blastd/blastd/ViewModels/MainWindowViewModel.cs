@@ -11,11 +11,11 @@ namespace blastd.ViewModels
         {
         }
 
-        public override void Initialize()
+        public override async void Initialize()
         {
             Requester r = new Requester();
-            List<string> s = r.GetValues().Result;
-            ListData = new []{"Test 1","Test 2"};
+            List<string> s = await r.GetValues();
+            ListData = s.ToArray();
             OnPropertyChanged(nameof(ListData));
         }
     }
